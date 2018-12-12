@@ -190,7 +190,7 @@ public class CustomComplicationProviderService extends ComplicationProviderServi
             }
 
         } else {
-            Log.d(TAG, "complilcationData is null");
+            Log.d(TAG, "complicationData is null");
             complicationManager.noUpdateRequired(complicationId);
         }
 
